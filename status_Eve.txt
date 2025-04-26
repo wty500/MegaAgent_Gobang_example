@@ -1,2 +1,3 @@
 - Reviewed test_report.txt and confirmed that all logic except a true draw scenario is fully tested and working.
 - Confirmed that unit tests in test_game_logic.py already include a programmatic draw scenario, but a real-game move sequence for draw is not yet tested in integration.
+- Suggested to Frank and Grace to add a targeted draw scenario test and offered assistance.
