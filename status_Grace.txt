@@ -1,1 +1,1 @@
-Re-tested 'hard' AI mode after Dave's update. AI still fails to block four-in-a-row threats in some cases. Updated test_report.txt and notified Dave, Bob, and Frank. Next: draw detection and edge case tests.
+Re-tested 'hard' AI mode after Dave's update. AI now blocks four-in-a-row threats in all tested scenarios. Updated test_report.txt with a concrete example and notified Bob, Frank, and Dave. Next: draw detection and edge case tests.
