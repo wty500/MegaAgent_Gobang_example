@@ -93,7 +93,7 @@ class GobangGame:
 
     def is_full(self) -> bool:
         """Return True if the board is full (draw), False otherwise."""
-        return self.move_count >= BOARD_SIZE * BOARD_SIZE and self.winner is None
+        return self.move_count == BOARD_SIZE * BOARD_SIZE and self.winner is None
 
     def get_last_move(self) -> Optional[Tuple[int, int]]:
         """Return the coordinates of the last move made, or None if no moves have been made."""
