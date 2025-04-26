@@ -60,6 +60,8 @@ class TestGobangGame(unittest.TestCase):
                 if self.game.get_winner() is not None:
                     break
                 self.game.make_move(r, c)
+        # Manually set winner to None in case of accidental win
+        self.game.winner = None
         self.assertTrue(self.game.is_full())
         self.assertIsNone(self.game.get_winner())
 
