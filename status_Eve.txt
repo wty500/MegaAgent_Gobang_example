@@ -1,1 +1,1 @@
-Received instructions from Bob regarding the Gobang core logic implementation and deliverables.
+Received architecture.txt from Carol. Reviewed module responsibilities and integration points for game_logic.py. Ready to begin implementation.
