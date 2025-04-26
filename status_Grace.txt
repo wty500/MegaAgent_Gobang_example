@@ -1,1 +1,1 @@
-Completed initial review and basic play test of main.py, ai.py, and game_logic.py. Documented results and next steps in test_report.txt. Notified Frank and Bob of progress and next steps.
+Completed win detection and 'hard' AI mode testing. Win detection works, but 'hard' AI failed to block a four-in-a-row threat. Updated test_report.txt and notified Frank and Bob. Next: draw detection, full board, more invalid input cases.
