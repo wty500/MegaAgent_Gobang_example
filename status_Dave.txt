@@ -1,1 +1,1 @@
-1. Received and reviewed architecture.txt from Carol. Understood the required interfaces and integration points for ai.py. Notified Frank of the current status.
+2. Designed the AI logic for ai.py according to architecture.txt, focusing on the required interfaces. 3. Implemented ai.py with Minimax + Alpha-Beta pruning, two difficulty levels, and required interface.
