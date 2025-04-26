@@ -1,4 +1,4 @@
-1. Await Dave's review and enhancement of the 'hard' AI logic to address the issue of not blocking four-in-a-row threats. (REMARKABLE TODO)
+1. Notify Grace to re-test the 'hard' AI to confirm it now blocks four-in-a-row threats and imminent wins. (REMARKABLE TODO)
 2. Await further feedback from Grace after she completes testing of draw detection, full board, and additional invalid input cases. (REMARKABLE TODO)
 3. Review and address any issues or requests from Grace's future test reports.
 4. Communicate with Eve if any bugs or improvements are identified during further testing.
