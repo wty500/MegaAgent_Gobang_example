@@ -1,0 +1,1 @@
+Wait for Carol to deliver the architecture design (architecture.md). After that, coordinate with Dave, Eve, Frank, and Grace as they implement their respective modules (ai.py, ai_readme.md, game_logic.py, main.py, tests.py, test_report.md). Review deliverables and ensure integration.
