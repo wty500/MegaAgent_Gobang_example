@@ -1,0 +1,6 @@
+1. Review the core modules (game_logic.py and ai.py) to understand their functionality and interfaces.
+2. Design and write unit tests for game_logic.py and ai.py in tests.py.
+3. Execute tests.py and record the results.
+4. Write a detailed test report in test_report.md, including any found bugs or issues.
+5. Inform Bob when the test report is ready.
+6. TODO: Ensure all features are covered and tests are comprehensive before finalizing the report.
