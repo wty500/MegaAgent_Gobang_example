@@ -1,3 +1,2 @@
 1. Conduct or design a targeted test for a true draw scenario in Gobang to fully validate draw detection logic. (REMARKABLE TODO)
-2. Notify Bob, Dave, and Eve that all integration and AI tests are complete except for a true draw scenario, which is recommended for further targeted testing.
-3. If needed, coordinate with Eve to improve or clarify draw detection logic based on targeted draw scenario results.
+2. If needed, coordinate with Eve to improve or clarify draw detection logic based on targeted draw scenario results.
