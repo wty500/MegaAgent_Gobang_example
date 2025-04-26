@@ -1,1 +1,1 @@
-Received and reviewed game_logic.py (GobangGame class and its API). Awaiting ai.py from Dave before proceeding with integration.
+Received and reviewed game_logic.py (GobangGame class and its API). Received and reviewed ai.py (set_difficulty(level), get_ai_move(board, ai_stone, player_stone)). Ready to implement main.py for integration.
