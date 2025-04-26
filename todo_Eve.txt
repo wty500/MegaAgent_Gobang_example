@@ -1,4 +1,0 @@
-3. Add clear documentation to all functions/classes in gamelogic.py.
-4. Write unit tests for all major functions in gamelogic.py.
-
-TODO: Write and document unit tests for gamelogic.py. (REMARKABLE TODO)
