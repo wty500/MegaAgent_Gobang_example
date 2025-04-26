@@ -1,1 +1,4 @@
-Implemented core Gobang game logic in gamelogic.py (board management, move validation, win detection, game state management) with documentation. Notified Frank and Carol of completion and availability for integration/feedback.
+- Implemented core Gobang game logic in game_logic.py (board management, move validation, win detection, game state management) with documentation.
+- Notified Frank and Carol of completion and availability for integration/feedback.
+- Wrote and documented unit tests for all major functions in gamelogic.py (test_game_logic.py).
+- All tests pass and the module is fully testable and modular as per architecture.txt.
