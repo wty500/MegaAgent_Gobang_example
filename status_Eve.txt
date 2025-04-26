@@ -1,4 +1,1 @@
-- Reviewed test_report.txt and confirmed that all logic except a true draw scenario is fully tested and working.
-- Confirmed that unit tests in test_game_logic.py already include a programmatic draw scenario, but a real-game move sequence for draw is not yet tested in integration.
-- Suggested to Frank and Grace to add a targeted draw scenario test and offered assistance.
-- Designed and provided a concrete script (draw_scenario.py) that fills the board without forming any five-in-a-row, ensuring a true draw scenario for integration testing, and communicated this to Frank and Grace.
+- Designed and provided a checkerboard pattern script for draw scenario, but Frank reported an assertion error due to an unexpected win (likely diagonal five-in-a-row).
