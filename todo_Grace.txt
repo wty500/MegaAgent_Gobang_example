@@ -1,1 +1,1 @@
-TODO: 1. Test draw detection and full board scenario. 2. Test additional invalid input and edge cases. 3. Notify Bob, Frank, and Dave when all tests are complete.
+TODO: 1. Notify Bob, Frank, and Dave when all tests are complete.
