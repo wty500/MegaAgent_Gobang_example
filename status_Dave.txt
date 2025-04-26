@@ -1,1 +1,1 @@
-- Reviewed test_report.txt and ai.py. - Requested a concrete board scenario or move sequence from Frank/Grace to reproduce and directly address the AI's failure to block four-in-a-row threats.
+- Reviewed test_report.txt and ai.py. - Requested a concrete board scenario or move sequence from Frank/Grace. - Improved ai.py to explicitly block all four-in-a-row threats, including vertical, horizontal, and diagonal. - Notified Frank, Grace, and Bob of the update and requested re-test.
