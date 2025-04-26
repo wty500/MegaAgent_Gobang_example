@@ -1,1 +1,1 @@
-Received instructions from Bob regarding the requirements for the Gobang AI module.
+1. Received and reviewed architecture.txt from Carol. Understood the required interfaces and integration points for ai.py. Notified Frank of the current status.
