@@ -2,3 +2,5 @@
 2. Designed the overall architecture for the Gobang game, including module structure, data flow, and integration points.
 3. Wrote a high-level design document (architecture.txt) outlining the architecture, modules, responsibilities, and interactions.
 4. Passed architecture.txt to Dave (AI designer) and Eve (game logic developer) for review and feedback.
+5. Received confirmation from Dave that the AI module requirements and integration points are clear.
+6. Received notification from Eve that the core logic has been implemented in game_logic.py.
