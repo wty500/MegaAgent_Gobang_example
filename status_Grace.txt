@@ -1,1 +1,1 @@
-Confirmed with Frank that ai.py, gamelogic.py, and main.py are not yet available. Awaiting notification from Frank to proceed with testing.
+Received notification from Frank that main.py, ai.py, and game_logic.py are ready. Ready to begin testing main.py and its integration with dependencies.
