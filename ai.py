@@ -31,6 +31,15 @@ class GobangAI:
         if self.difficulty == 'easy':
             return self._random_move(board)
         else:
+            # 1. Check for immediate win
+            win_move = self._find_immediate_win(board, ai_stone)
+            if win_move:
+                return win_move
+            # 2. Check for immediate block
+            block_move = self._find_immediate_win(board, player_stone)
+            if block_move:
+                return block_move
+            # 3. Otherwise, use minimax
             move = self._iterative_deepening(board, ai_stone, player_stone, start_time)
             if move is None:
                 return self._random_move(board)
@@ -39,6 +48,18 @@ class GobangAI:
     def _random_move(self, board):
         empty = [(r, c) for r in range(BOARD_SIZE) for c in range(BOARD_SIZE) if board[r][c] == EMPTY]
         return random.choice(empty) if empty else None
+
+    def _find_immediate_win(self, board, stone):
+        # Return a move (r, c) that creates five in a row for 'stone', or None
+        for r in range(BOARD_SIZE):
+            for c in range(BOARD_SIZE):
+                if board[r][c] == EMPTY:
+                    board[r][c] = stone
+                    if self._check_win(board, stone, r, c):
+                        board[r][c] = EMPTY
+                        return (r, c)
+                    board[r][c] = EMPTY
+        return None
 
     def _iterative_deepening(self, board, ai_stone, player_stone, start_time):
         best_move = None
@@ -53,7 +74,7 @@ class GobangAI:
     def _minimax(self, board, depth, maximizing, ai_stone, player_stone, alpha, beta, start_time):
         if time.time() - start_time > self.time_limit:
             return None, 0
-        winner = self._check_win(board)
+        winner = self._check_win_full(board)
         if winner == ai_stone:
             return None, 1000000
         elif winner == player_stone:
@@ -113,7 +134,7 @@ class GobangAI:
     def _is_full(self, board):
         return all(board[r][c] != EMPTY for r in range(BOARD_SIZE) for c in range(BOARD_SIZE))
 
-    def _check_win(self, board):
+    def _check_win_full(self, board):
         # Returns the winner's stone value, or None if no winner
         for r in range(BOARD_SIZE):
             for c in range(BOARD_SIZE):
@@ -122,6 +143,23 @@ class GobangAI:
                 if self._check_five(board, r, c):
                     return board[r][c]
         return None
+
+    def _check_win(self, board, stone, r, c):
+        # Check if placing at (r, c) for 'stone' results in a win
+        for dr, dc in [(0,1), (1,0), (1,1), (1,-1)]:
+            count = 1
+            for d in [1, -1]:
+                nr, nc = r, c
+                while True:
+                    nr += dr * d
+                    nc += dc * d
+                    if 0 <= nr < BOARD_SIZE and 0 <= nc < BOARD_SIZE and board[nr][nc] == stone:
+                        count += 1
+                    else:
+                        break
+            if count >= 5:
+                return True
+        return False
 
     def _check_five(self, board, r, c):
         # Check all directions for five in a row
