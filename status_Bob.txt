@@ -1,1 +1,1 @@
-Wrote requirements.txt with detailed feature list and technical requirements. Assigned tasks to Carol (architecture), Dave (AI), Eve (game logic), Frank (integration), and Grace (testing).
+Wrote requirements.txt with detailed feature list and technical requirements. Assigned tasks to Carol (architecture), Dave (AI), Eve (game logic), Frank (integration), and Grace (testing). Confirmed AI integration and threat blocking with Dave and Frank. Instructed Grace to proceed with draw and edge case testing.
