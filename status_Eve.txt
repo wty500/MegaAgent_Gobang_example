@@ -1,1 +1,3 @@
-- Designed and provided a checkerboard pattern script for draw scenario, but Frank reported an assertion error due to an unexpected win (likely diagonal five-in-a-row).
+- Identified the flaw in the original checkerboard pattern (diagonal five-in-a-row possible).
+- Designed and implemented a shifted/alternating pattern in draw_scenario.py to break all five-in-a-row alignments.
+- Notified Frank to re-test with the new script.
