@@ -24,14 +24,14 @@ Test Results:
 - Game can be exited gracefully with 'q'.
 - No crashes or unhandled exceptions encountered during basic play.
 - Win detection works: Player X was able to win with a horizontal five-in-a-row, and the game announced the win and ended as expected.
-- 'Hard' AI mode does not always block obvious threats (e.g., four in a row), indicating the AI may not be strong enough or is not prioritizing defense/offense optimally. (ISSUE)
+- 'Hard' AI mode (after update) still does not always block obvious four-in-a-row threats. In a vertical test, AI failed to block the fifth stone, allowing the player to win. (ISSUE)
 - No issues with board boundaries or move validation in tested scenarios.
 - Draw detection and full board scenario not yet tested. (TODO)
 - Additional invalid input and edge cases not yet tested. (TODO)
 
 Issues/Feedback:
 ----------------
-- AI (hard mode) did not block a clear four-in-a-row threat, allowing the player to win easily. This suggests the AI is not yet strong enough for 'hard' mode. (ISSUE)
+- AI (hard mode, post-update) did not block a clear four-in-a-row threat, allowing the player to win easily. This suggests the AI is still not strong enough for 'hard' mode. (ISSUE)
 - Draw detection and full board scenario not yet tested. (TODO)
 - Additional invalid input and edge cases not yet tested. (TODO)
 
@@ -39,8 +39,8 @@ Next Steps:
 -----------
 - Test draw detection and full board scenario.
 - Test additional invalid input and edge cases.
-- Recommend review and improvement of 'hard' AI logic to better block threats and play more competitively.
+- Recommend further review and improvement of 'hard' AI logic to better block threats and play more competitively.
 
 Conclusion:
 -----------
-Initial integration, basic play, and win detection are working as intended. 'Hard' AI needs improvement to meet strength expectations. Further testing required for draw logic and additional edge cases.
+Initial integration, basic play, and win detection are working as intended. 'Hard' AI still needs improvement to meet strength expectations. Further testing required for draw logic and additional edge cases.
