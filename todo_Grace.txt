@@ -1,1 +1,1 @@
-TODO: 1. Test win/draw detection and edge cases. 2. Test 'hard' AI mode for strength and move quality. 3. Test robustness against invalid input and full board scenarios. 4. Update test_report.txt and notify Bob and Frank when all tests are complete.
+TODO: 1. Test draw detection and full board scenario. 2. Test additional invalid input and edge cases. 3. Notify Bob and Frank when all tests are complete.
