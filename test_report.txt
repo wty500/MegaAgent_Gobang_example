@@ -7,33 +7,38 @@ Dependencies: ai.py, game_logic.py
 Test Plan:
 ----------
 1. Launch main.py and verify CLI prompts for difficulty and player stone selection.
-2. Play several moves as Player X against AI (easy mode).
+2. Play several moves as Player X against AI (easy and hard modes).
 3. Observe AI move validity and responsiveness.
 4. Test quitting the game with 'q'.
 5. Check for any crashes, unhandled exceptions, or logic errors.
+6. Test win/draw detection and edge cases.
+7. Test robustness against invalid input and full board scenarios.
 
 Test Results:
 -------------
 - CLI prompts for difficulty and player stone selection are clear and function as expected.
 - Board is displayed correctly after each move.
 - User move input is validated; invalid moves are rejected with appropriate messages.
-- AI responds with valid moves and does not crash, even on 'easy' mode.
+- AI responds with valid moves and does not crash, even on 'hard' mode.
 - AI moves are legal and placed on empty cells.
 - Game can be exited gracefully with 'q'.
 - No crashes or unhandled exceptions encountered during basic play.
+- Win detection works: Player X was able to win with a horizontal five-in-a-row, and the game announced the win and ended as expected.
+- 'Hard' AI mode does not always block obvious threats (e.g., four in a row), indicating the AI may not be strong enough or is not prioritizing defense/offense optimally. (ISSUE)
+- No issues with board boundaries or move validation in tested scenarios.
 
 Issues/Feedback:
 ----------------
-- AI (easy mode) sometimes plays in non-central, seemingly random locations, but always legal moves. This matches the intended behavior for 'easy'.
-- Did not test full win/draw detection or 'hard' AI mode yet. (TODO)
-- Did not test edge cases (e.g., invalid input, full board, win/draw scenarios). (TODO)
+- AI (hard mode) did not block a clear four-in-a-row threat, allowing the player to win easily. This suggests the AI is not yet strong enough for 'hard' mode. (ISSUE)
+- Did not test full draw detection or full board scenario yet. (TODO)
+- Did not test all possible invalid input cases. (TODO)
 
 Next Steps:
 -----------
-- Test win/draw detection and edge cases.
-- Test 'hard' AI mode for strength and move quality.
-- Test robustness against invalid input and full board scenarios.
+- Test draw detection and full board scenario.
+- Test additional invalid input and edge cases.
+- Recommend review and improvement of 'hard' AI logic to better block threats and play more competitively.
 
 Conclusion:
 -----------
-Initial integration and basic play are working as intended. Further testing required for win/draw logic, hard AI, and edge cases.
+Initial integration, basic play, and win detection are working as intended. 'Hard' AI needs improvement to meet strength expectations. Further testing required for draw logic and additional edge cases.
