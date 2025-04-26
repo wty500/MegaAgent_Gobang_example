@@ -38,6 +38,13 @@ Test Results:
 - Draw detection and full board scenario not yet tested. (TODO)
 - Additional invalid input and edge cases not yet tested. (TODO)
 
+Additional Test: Horizontal Threat Blocking (Passed)
+----------------------------------------------------
+Move sequence:
+Player (X): (0,0), (0,1), (0,2), (0,4), (0,5), (0,6)
+AI (O): (1,2), (2,4), (3,4), (2,5), (0,3), (0,7)
+Result: AI correctly blocks the horizontal four-in-a-row at (0,3) and (0,7), preventing a win by X.
+
 Issues/Feedback:
 ----------------
 - 'Hard' AI now blocks immediate four-in-a-row threats as expected in all tested cases. (RESOLVED)
