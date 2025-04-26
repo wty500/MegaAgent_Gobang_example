@@ -1,1 +1,1 @@
-4. Documented the code clearly in ai.py. 5. Wrote ai_readme.md with a brief description of the AI approach. 6. Passed ai.py to Frank for integration.
+Received feedback from Bob and test report from Grace/Frank: 'Hard' AI failed to block four-in-a-row threats. Ready to address the issue by improving defensive logic in ai.py.
