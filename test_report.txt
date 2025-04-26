@@ -26,12 +26,14 @@ Test Results:
 - Win detection works: Player X was able to win with a horizontal five-in-a-row, and the game announced the win and ended as expected.
 - 'Hard' AI mode does not always block obvious threats (e.g., four in a row), indicating the AI may not be strong enough or is not prioritizing defense/offense optimally. (ISSUE)
 - No issues with board boundaries or move validation in tested scenarios.
+- Draw detection and full board scenario not yet tested. (TODO)
+- Additional invalid input and edge cases not yet tested. (TODO)
 
 Issues/Feedback:
 ----------------
 - AI (hard mode) did not block a clear four-in-a-row threat, allowing the player to win easily. This suggests the AI is not yet strong enough for 'hard' mode. (ISSUE)
-- Did not test full draw detection or full board scenario yet. (TODO)
-- Did not test all possible invalid input cases. (TODO)
+- Draw detection and full board scenario not yet tested. (TODO)
+- Additional invalid input and edge cases not yet tested. (TODO)
 
 Next Steps:
 -----------
