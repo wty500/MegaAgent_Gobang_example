@@ -1,1 +1,1 @@
-TODO: 1. Re-test 'hard' AI mode for blocking four-in-a-row threats and seizing immediate wins. 2. Test draw detection and full board scenario. 3. Test additional invalid input and edge cases. 4. Notify Bob, Frank, and Dave when all tests are complete.
+TODO: 1. Test draw detection and full board scenario. 2. Test additional invalid input and edge cases. 3. Notify Bob, Frank, and Dave when all tests are complete.
