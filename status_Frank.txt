@@ -1,3 +1,4 @@
-- Received and reviewed Grace's initial test report in test_report.txt.
-- Confirmed that basic CLI flow, move validation, and AI integration work as expected with no major issues or crashes.
-- Noted that further testing is planned for win/draw detection, hard AI, and edge cases.
+- Received and reviewed Grace's updated test report in test_report.txt.
+- Noted that win detection works, but 'hard' AI does not block four-in-a-row threats and needs improvement.
+- Communicated the AI issue to Dave for review and enhancement.
+- Awaiting further test results from Grace on draw detection, full board, and invalid input cases.
