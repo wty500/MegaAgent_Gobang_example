@@ -1,5 +1,4 @@
-- Received and reviewed Grace's updated test report in test_report.txt.
-- Noted that win detection works, and 'hard' AI now blocks four-in-a-row threats as expected (issue resolved).
-- Communicated the AI improvement confirmation to Dave.
-- Awaiting further test results from Grace on draw detection, full board, and invalid input cases.
-- Performed integration testing of the updated ai.py as requested by Dave and Bob. Confirmed that the 'hard' AI blocks all four-in-a-row threats (vertical, horizontal, diagonal) and is correctly integrated in main.py. No issues found. Reported results to Dave and Bob.
+- Received and reviewed Grace's final test report in test_report.txt.
+- Confirmed that all integration, win detection, invalid input handling, and 'hard' AI threat blocking tests are complete and passed.
+- Noted that draw detection is only partially tested; a true draw scenario is recommended for further targeted testing.
+- Reminded Grace for feedback and received her confirmation of test completion.
