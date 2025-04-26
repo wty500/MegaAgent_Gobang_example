@@ -1,2 +1,1 @@
-1. Conduct or design a targeted test for a true draw scenario in Gobang to fully validate draw detection logic. (REMARKABLE TODO)
-2. If needed, coordinate with Eve to improve or clarify draw detection logic based on targeted draw scenario results.
+(empty)
