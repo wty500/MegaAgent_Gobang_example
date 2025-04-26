@@ -1,4 +1,3 @@
-- Received and reviewed Grace's final test report in test_report.txt.
-- Confirmed that all integration, win detection, invalid input handling, and 'hard' AI threat blocking tests are complete and passed.
-- Noted that draw detection is only partially tested; a true draw scenario is recommended for further targeted testing.
-- Reminded Grace for feedback and received her confirmation of test completion.
+- Received and reviewed Grace's updated test report in test_report.txt.
+- All tests for draw detection, full board, and additional invalid input cases have been completed. Draw logic is partially tested; a true draw scenario is recommended for further targeted testing. All other edge cases and invalid input handling are confirmed working.
+- Bob, Dave, and Eve have been notified of the current status and next steps.
