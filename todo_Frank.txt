@@ -1,6 +1,3 @@
-3. Design and implement main.py to integrate both modules, providing a command-line interface for Gobang.
-4. Ensure main.py handles user input, game flow, and error handling.
-5. Add clear comments to main.py.
 6. Pass main.py to Grace (the tester) for testing.
 
-REMARKABLE TODO: Implement and test main.py integration with ai.py and game_logic.py.
+REMARKABLE TODO: Await feedback from Grace after passing main.py for testing.
