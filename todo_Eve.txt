@@ -1,5 +1,4 @@
-1. Wait for Carol to deliver the architecture (architecture.txt).
-2. After receiving architecture.txt, design and implement the core Gobang game logic in gamelogic.py, including:
+2. Design and implement the core Gobang game logic in gamelogic.py, including:
    - Board management
    - Move validation
    - Win detection
@@ -8,4 +7,4 @@
 4. Write unit tests for all major functions in gamelogic.py.
 5. Pass gamelogic.py to Frank for integration.
 
-TODO: Await architecture.txt from Carol before starting implementation.
+TODO: Implement game logic in gamelogic.py as per architecture.txt. (REMARKABLE TODO)
