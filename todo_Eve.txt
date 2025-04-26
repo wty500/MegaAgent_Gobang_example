@@ -1,2 +1,0 @@
-- Design a concrete move sequence (or script) that fills the Gobang board completely without forming any five-in-a-row, ensuring a true draw scenario for integration testing.
-- Communicate the move sequence/script to Frank and Grace for integration and validation.
