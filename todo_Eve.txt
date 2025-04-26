@@ -1,1 +1,0 @@
-Wait for Frank's feedback on the new draw_scenario.py script. If the issue persists, further adjust the move pattern to guarantee no five-in-a-row. If successful, mark the draw scenario as fully validated.
