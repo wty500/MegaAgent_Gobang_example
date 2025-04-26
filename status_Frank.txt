@@ -2,3 +2,4 @@
 - Noted that win detection works, but 'hard' AI does not block four-in-a-row threats and needs improvement.
 - Communicated the AI issue to Dave for review and enhancement.
 - Awaiting further test results from Grace on draw detection, full board, and invalid input cases.
+- Acknowledged Grace's plan to proceed with further testing and her commitment to report any issues or suggestions.
