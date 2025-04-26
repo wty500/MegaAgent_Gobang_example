@@ -1,0 +1,5 @@
+1. Review requirements.txt and extract all key features and technical requirements.
+2. Design the overall architecture for the Gobang game, including module structure, data flow, and integration points.
+3. Write a high-level design document (architecture.txt) outlining the architecture, modules, responsibilities, and interactions.
+4. Pass architecture.txt to Dave (AI designer) and Eve (game logic developer).
+5. Mark TODO for future: Ensure architecture supports unit testing and modularity.
