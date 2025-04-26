@@ -1,3 +1,3 @@
-6. Pass main.py to Grace (the tester) for testing.
-
-REMARKABLE TODO: Await feedback from Grace after passing main.py for testing.
+1. Await further feedback from Grace after she completes testing of win/draw detection, hard AI mode, and edge cases. (REMARKABLE TODO)
+2. Review and address any issues or requests from Grace's future test reports.
+3. Communicate with Dave and Eve if any bugs or improvements are identified during further testing.
