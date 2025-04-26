@@ -1,0 +1,67 @@
+# Gobang Game Architecture Design
+
+## Overview
+This document outlines the high-level architecture for the console-based Gobang (Five in a Row) game with a strong AI opponent. The design ensures modularity, testability, and clear separation of concerns, as per the requirements.
+
+## Module Structure
+
+### 1. main.py (Entry Point)
+- Orchestrates the game loop and user interaction.
+- Handles game start, restart, and exit options.
+- Delegates game logic and AI decisions to respective modules.
+
+### 2. game_logic.py
+- Manages the Gobang board state (15x15 grid).
+- Handles move validation, placement, and turn management.
+- Implements win detection (row, column, diagonal).
+- Provides methods for resetting and querying the board.
+- Exposes an interface for integration with main.py and AI.
+
+### 3. ai.py
+- Implements the AI opponent using advanced algorithms (e.g., Minimax with Alpha-Beta pruning, MCTS).
+- Supports at least two difficulty levels (configurable).
+- Ensures move computation within 2 seconds.
+- Receives current board state and returns the AI's move.
+
+### 4. integration.py
+- Provides glue code for communication between main.py, game_logic.py, and ai.py.
+- Handles input validation and error handling for user moves.
+- Manages game state transitions (e.g., restart, exit).
+
+### 5. utils.py (Optional)
+- Contains shared utility functions (e.g., board display, input parsing).
+
+### 6. tests/
+- Contains unit tests for game logic and AI modules.
+
+## Data Flow & Integration Points
+- **main.py** receives user input and delegates to **integration.py**.
+- **integration.py** validates input, updates the board via **game_logic.py**, and queries **ai.py** for AI moves.
+- **game_logic.py** maintains the board state and checks for win conditions after each move.
+- **ai.py** receives the current board state and returns the next move for the AI.
+- **main.py** manages the overall game loop, restart, and exit logic.
+
+## Responsibilities
+- **main.py**: User interaction, game loop, high-level control.
+- **game_logic.py**: Board management, move validation, win detection.
+- **ai.py**: AI move computation, difficulty management.
+- **integration.py**: Input validation, error handling, module coordination.
+- **utils.py**: Shared helpers (if needed).
+- **tests/**: Unit tests for core modules.
+
+## Extensibility & Testing
+- Each module is designed for independent unit testing.
+- The architecture supports easy addition of new features (e.g., more AI levels, different board sizes).
+
+## File Structure
+- main.py
+- game_logic.py
+- ai.py
+- integration.py
+- utils.py (optional)
+- tests/
+- requirements.txt
+- architecture.txt
+
+---
+This architecture ensures a clean separation of concerns, maintainability, and strong support for future enhancements and testing.
