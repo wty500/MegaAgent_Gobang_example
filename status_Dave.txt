@@ -1,1 +1,1 @@
-2. Designed the AI logic for ai.py according to architecture.txt, focusing on the required interfaces. 3. Implemented ai.py with Minimax + Alpha-Beta pruning, two difficulty levels, and required interface.
+4. Documented the code clearly in ai.py. 5. Wrote ai_readme.md with a brief description of the AI approach. 6. Passed ai.py to Frank for integration.
