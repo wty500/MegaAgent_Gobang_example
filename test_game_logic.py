@@ -54,10 +54,13 @@ class TestGobangGame(unittest.TestCase):
         self.assertEqual(self.game.get_winner(), PLAYER_1)
 
     def test_draw(self):
-        # Fill the board without any winner
+        # Fill the board without any winner, alternate moves to avoid 5 in a row
+        player = PLAYER_1
         for r in range(BOARD_SIZE):
             for c in range(BOARD_SIZE):
+                self.game.current_player = player
                 self.game.make_move(r, c)
+                player = PLAYER_2 if player == PLAYER_1 else PLAYER_1
         self.assertTrue(self.game.is_full())
         self.assertIsNone(self.game.get_winner())
 
