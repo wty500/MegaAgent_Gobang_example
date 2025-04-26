@@ -1,1 +1,1 @@
-Received integration instructions from Bob. Ready to begin once dependencies are available.
+Received and reviewed game_logic.py (GobangGame class and its API). Awaiting ai.py from Dave before proceeding with integration.
