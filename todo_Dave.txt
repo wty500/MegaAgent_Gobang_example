@@ -1,0 +1,7 @@
+1. Wait for Carol to provide architecture.txt with the required interfaces and design for the AI module.
+2. Once received, read architecture.txt and design the AI logic accordingly.
+3. Implement ai.py with at least two difficulty levels and a strong algorithm (e.g., Minimax with Alpha-Beta pruning, MCTS, etc.), ensuring moves are made within 2 seconds.
+4. Document the code clearly in ai.py.
+5. Write ai_readme.md with a brief description of the AI approach.
+6. Pass ai.py to Frank for integration.
+7. Update TODO list after each step and clear it when all tasks are done.
