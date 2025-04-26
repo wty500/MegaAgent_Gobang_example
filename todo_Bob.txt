@@ -1,1 +1,0 @@
-Wait for Grace to complete draw detection and edge case tests. Review test_report.txt after Grace confirms all tests are complete. If all deliverables are satisfactory, finalize the project and terminate.
