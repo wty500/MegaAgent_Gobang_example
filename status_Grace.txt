@@ -1,1 +1,1 @@
-Re-tested 'hard' AI mode after Dave's update. AI now blocks four-in-a-row threats in all tested scenarios, including horizontal, vertical, and diagonal. Updated test_report.txt with a concrete example and move sequence. Next: draw detection and edge case tests.
+Tested invalid input and edge cases: out-of-bounds moves, non-integer input, occupied cell, and quitting. All handled correctly with no crashes. Updated test_report.txt. Next: notify Bob, Frank, and Dave that all tests are complete except for a true draw scenario, which is recommended for further targeted testing.
