@@ -1,1 +1,1 @@
-Received feedback from Bob and test report from Grace/Frank: 'Hard' AI failed to block four-in-a-row threats. Ready to address the issue by improving defensive logic in ai.py.
+1. Reviewed and improved the AI's defensive logic in ai.py to ensure it blocks imminent wins (four-in-a-row threats). 2. Notified Bob, Frank, and Grace that the fix is complete and ready for re-testing.
