@@ -35,8 +35,8 @@ class GobangAI:
             win_move = self._find_immediate_win(board, ai_stone)
             if win_move:
                 return win_move
-            # 2. Check for immediate block
-            block_move = self._find_immediate_win(board, player_stone)
+            # 2. Check for immediate block (improved: block all open fours)
+            block_move = self._find_block_fours(board, player_stone)
             if block_move:
                 return block_move
             # 3. Otherwise, use minimax
@@ -60,6 +60,52 @@ class GobangAI:
                         return (r, c)
                     board[r][c] = EMPTY
         return None
+
+    def _find_block_fours(self, board, player_stone):
+        # Block all open fours (threats of four in a row)
+        threats = self._find_open_fours(board, player_stone)
+        if threats:
+            # Prioritize blocking the first found threat
+            return threats[0]
+        # Fallback: block any immediate win
+        return self._find_immediate_win(board, player_stone)
+
+    def _find_open_fours(self, board, stone):
+        # Return a list of empty cells that, if filled, would block a four-in-a-row
+        threats = []
+        for r in range(BOARD_SIZE):
+            for c in range(BOARD_SIZE):
+                if board[r][c] == EMPTY:
+                    for dr, dc in [(0,1), (1,0), (1,1), (1,-1)]:
+                        if self._is_open_four(board, stone, r, c, dr, dc):
+                            threats.append((r, c))
+                            break
+        return threats
+
+    def _is_open_four(self, board, stone, r, c, dr, dc):
+        # Check if placing at (r, c) blocks an open four for 'stone' in direction (dr, dc)
+        # Simulate placing the stone
+        board[r][c] = stone
+        count = 1
+        # Check in both directions
+        for d in [1, -1]:
+            nr, nc = r, c
+            while True:
+                nr += dr * d
+                nc += dc * d
+                if 0 <= nr < BOARD_SIZE and 0 <= nc < BOARD_SIZE and board[nr][nc] == stone:
+                    count += 1
+                else:
+                    break
+        board[r][c] = EMPTY
+        if count == 4:
+            # Check for open ends
+            before_r, before_c = r - dr * 4, c - dc * 4
+            after_r, after_c = r + dr, c + dc
+            before_empty = (0 <= before_r < BOARD_SIZE and 0 <= before_c < BOARD_SIZE and board[before_r][before_c] == EMPTY)
+            after_empty = (0 <= after_r < BOARD_SIZE and 0 <= after_c < BOARD_SIZE and board[after_r][after_c] == EMPTY)
+            return before_empty or after_empty
+        return False
 
     def _iterative_deepening(self, board, ai_stone, player_stone, start_time):
         best_move = None
