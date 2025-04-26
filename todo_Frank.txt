@@ -1,0 +1,8 @@
+1. Wait for ai.py (from Dave) and gamelogic.py (from Eve) to be delivered.
+2. Once both modules are available, read and understand their APIs.
+3. Design and implement main.py to integrate both modules, providing a command-line interface for Gobang.
+4. Ensure main.py handles user input, game flow, and error handling.
+5. Add clear comments to main.py.
+6. Pass main.py to Grace (the tester) for testing.
+
+REMARKABLE TODO: Await delivery of ai.py and gamelogic.py before starting integration.
