@@ -1,1 +1,1 @@
-TODO: 1. Read and review main.py, ai.py, and game_logic.py for initial understanding. 2. Execute main.py and interact with the CLI to test basic game flow. 3. Test AI move validity and strength. 4. Test win/draw detection. 5. Document all findings and issues in test_report.txt. 6. Notify Bob and Frank of results and feedback.
+TODO: 1. Test win/draw detection and edge cases. 2. Test 'hard' AI mode for strength and move quality. 3. Test robustness against invalid input and full board scenarios. 4. Update test_report.txt and notify Bob and Frank when all tests are complete.
