@@ -1,1 +1,1 @@
-Completed win detection and 'hard' AI mode testing. Win detection works, but 'hard' AI failed to block a four-in-a-row threat. Updated test_report.txt and notified Frank and Bob. Next: draw detection, full board, more invalid input cases.
+Completed win detection and 'hard' AI mode testing. Win detection works, but 'hard' AI failed to block a four-in-a-row threat. Updated test_report.txt and notified Frank and Bob. Ran a full game to test win detection and basic play. Updated test_report.txt with results. Next: draw detection, full board, more invalid input cases.
