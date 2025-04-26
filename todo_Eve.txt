@@ -1,10 +1,4 @@
-2. Design and implement the core Gobang game logic in gamelogic.py, including:
-   - Board management
-   - Move validation
-   - Win detection
-   - Game state management
 3. Add clear documentation to all functions/classes in gamelogic.py.
 4. Write unit tests for all major functions in gamelogic.py.
-5. Pass gamelogic.py to Frank for integration.
 
-TODO: Implement game logic in gamelogic.py as per architecture.txt. (REMARKABLE TODO)
+TODO: Write and document unit tests for gamelogic.py. (REMARKABLE TODO)
