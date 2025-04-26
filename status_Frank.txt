@@ -5,3 +5,5 @@
 - Successfully executed main.py and confirmed that the updated ai.py is properly integrated and all modules work together as expected. No integration issues encountered.
 - Awaiting further test results from Grace on draw detection, full board, and invalid input cases.
 - Acknowledged Grace's plan to proceed with further testing and her commitment to report any issues or suggestions.
+- Relayed Dave's request to Grace for a specific board scenario or move sequence where the 'hard' AI failed to block a four-in-a-row threat, to help with further AI improvements.
+- Received Grace's update that the 'hard' AI still fails to block four-in-a-row threats in some cases, with details in test_report.txt, and notified Dave for further review.
