@@ -1,0 +1,1 @@
+Received instructions from Bob regarding the requirements for the Gobang AI module.
