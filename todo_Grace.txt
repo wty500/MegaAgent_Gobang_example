@@ -1,1 +1,1 @@
-TODO: Wait for Frank to notify when ai.py, gamelogic.py, and main.py are available. Resume test planning and execution once files are delivered.
+TODO: 1. Read and review main.py, ai.py, and game_logic.py for initial understanding. 2. Execute main.py and interact with the CLI to test basic game flow. 3. Test AI move validity and strength. 4. Test win/draw detection. 5. Document all findings and issues in test_report.txt. 6. Notify Bob and Frank of results and feedback.
