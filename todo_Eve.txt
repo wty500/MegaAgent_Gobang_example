@@ -1,0 +1,4 @@
+- Review the checkerboard pattern in draw_scenario.py to identify how a five-in-a-row is possible (e.g., diagonally).
+- Design a new move sequence or board-filling pattern that guarantees no five-in-a-row in any direction.
+- Update draw_scenario.py with the corrected move sequence.
+- Notify Frank and Grace to re-test with the new script.
