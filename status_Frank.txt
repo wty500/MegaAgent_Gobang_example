@@ -1,1 +1,1 @@
-Received and reviewed game_logic.py (GobangGame class and its API). Received and reviewed ai.py (set_difficulty(level), get_ai_move(board, ai_stone, player_stone)). Ready to implement main.py for integration.
+Received and reviewed game_logic.py (GobangGame class and its API). Received and reviewed ai.py (set_difficulty(level), get_ai_move(board, ai_stone, player_stone)). Implemented main.py to integrate both modules, providing a command-line interface for Gobang. main.py handles user input, game flow, and error handling, with clear comments.
