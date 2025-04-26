@@ -3,3 +3,4 @@
 - Bob, Dave, and Eve have been notified of the current status and next steps.
 - Ran Eve's updated draw_scenario.py script; the draw scenario test passed successfully, confirming correct draw detection logic in game_logic.py.
 - Notified Eve, Grace, Bob, and Dave of the successful test results and current status.
+- Prepared and delivered summary_report.txt to Bob, confirming all requirements and features are met, and the project is ready for final review.
