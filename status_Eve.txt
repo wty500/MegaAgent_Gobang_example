@@ -1,3 +1,4 @@
 - Identified the flaw in the original checkerboard pattern (diagonal five-in-a-row possible).
 - Designed and implemented a shifted/alternating pattern in draw_scenario.py to break all five-in-a-row alignments.
 - Notified Frank to re-test with the new script.
+- Received confirmation from Frank that the draw scenario is now fully validated and the logic works as intended.
