@@ -1,1 +1,1 @@
-Wait for Carol to deliver the architecture design (architecture.md). After that, coordinate with Dave, Eve, Frank, and Grace as they implement their respective modules (ai.py, ai_readme.md, game_logic.py, main.py, tests.py, test_report.md). Review deliverables and ensure integration.
+Wait for Grace to complete draw detection and edge case tests. Review test_report.txt after Grace confirms all tests are complete. If all deliverables are satisfactory, finalize the project and terminate.
