@@ -1,1 +1,1 @@
-4. Document the code clearly in ai.py. 5. Write ai_readme.md with a brief description of the AI approach. 6. Pass ai.py to Frank for integration. 7. Update TODO list after each step and clear it when all tasks are done.
+(TODO REMARKABLE) Await feedback from Frank and Grace after integration and testing. Address any issues or improvements as needed. Clear TODO list when all tasks are confirmed complete.
