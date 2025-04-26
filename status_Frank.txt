@@ -2,3 +2,4 @@
 - Noted that win detection works, and 'hard' AI now blocks four-in-a-row threats as expected (issue resolved).
 - Communicated the AI improvement confirmation to Dave.
 - Awaiting further test results from Grace on draw detection, full board, and invalid input cases.
+- Performed integration testing of the updated ai.py as requested by Dave and Bob. Confirmed that the 'hard' AI blocks all four-in-a-row threats (vertical, horizontal, diagonal) and is correctly integrated in main.py. No issues found. Reported results to Dave and Bob.
