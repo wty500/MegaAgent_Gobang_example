@@ -1,1 +1,3 @@
-Received and reviewed game_logic.py (GobangGame class and its API). Received and reviewed ai.py (set_difficulty(level), get_ai_move(board, ai_stone, player_stone)). Implemented main.py to integrate both modules, providing a command-line interface for Gobang. main.py handles user input, game flow, and error handling, with clear comments.
+- Received and reviewed Grace's initial test report in test_report.txt.
+- Confirmed that basic CLI flow, move validation, and AI integration work as expected with no major issues or crashes.
+- Noted that further testing is planned for win/draw detection, hard AI, and edge cases.
