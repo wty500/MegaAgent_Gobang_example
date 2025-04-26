@@ -1,3 +1,4 @@
 - Received and reviewed Grace's updated test report in test_report.txt.
-- All tests for draw detection, full board, and additional invalid input cases have been completed. Draw logic is partially tested; a true draw scenario is recommended for further targeted testing. All other edge cases and invalid input handling are confirmed working.
+- All tests for draw detection, full board, and additional invalid input cases have been completed. Draw logic is now fully tested with a true draw scenario using Eve's updated pattern. All other edge cases and invalid input handling are confirmed working.
 - Bob, Dave, and Eve have been notified of the current status and next steps.
+- Ran Eve's updated draw_scenario.py script; the draw scenario test passed successfully, confirming correct draw detection logic in game_logic.py.
