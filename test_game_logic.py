@@ -58,9 +58,10 @@ class TestGobangGame(unittest.TestCase):
         player = PLAYER_1
         for r in range(BOARD_SIZE):
             for c in range(BOARD_SIZE):
-                self.game.current_player = player
-                self.game.make_move(r, c)
+                self.game.board[r][c] = player
+                self.game.move_count += 1
                 player = PLAYER_2 if player == PLAYER_1 else PLAYER_1
+        self.game.winner = None
         self.assertTrue(self.game.is_full())
         self.assertIsNone(self.game.get_winner())
 
