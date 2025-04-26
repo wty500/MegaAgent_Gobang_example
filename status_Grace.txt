@@ -1,1 +1,1 @@
-Received update from Dave: 'hard' AI has been improved to block four-in-a-row threats and seize wins. Previous tests covered win detection and basic play, but AI failed to block threats. Will re-test AI and continue with draw/edge case tests.
+Re-tested 'hard' AI mode after Dave's update. AI still fails to block four-in-a-row threats in some cases. Updated test_report.txt and notified Dave, Bob, and Frank. Next: draw detection and edge case tests.
