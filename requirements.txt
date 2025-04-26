@@ -1,0 +1,24 @@
+Gobang Game with Strong AI - Feature List and Technical Requirements
+
+1. Game Features:
+- Console-based Gobang (Five in a Row) game, no frontend/GUI.
+- Two-player mode: Human vs AI.
+- Standard 15x15 board.
+- Players alternate turns, placing black or white stones.
+- Win detection: Five consecutive stones in a row, column, or diagonal.
+- Input validation and error handling for moves.
+- Game restart and exit options.
+
+2. AI Features:
+- Strong AI opponent using advanced algorithms (e.g., Minimax with Alpha-Beta pruning, MCTS, or similar).
+- Configurable AI difficulty (at least two levels).
+- AI should make moves within a reasonable time (<2 seconds per move).
+
+3. Technical Requirements:
+- All code in Python 3.
+- No external dependencies except standard library.
+- All logic in backend, no GUI or web interface.
+- Main entry point: main.py (run with `python main.py`).
+- Modular code structure: separate modules for game logic, AI, and integration.
+- Clear documentation and comments in code.
+- Unit tests for core modules.
