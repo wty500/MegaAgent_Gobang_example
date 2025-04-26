@@ -1,1 +1,5 @@
-- Reviewed test_report.txt and ai.py. - Requested a concrete board scenario or move sequence from Frank/Grace. - Improved ai.py to explicitly block all four-in-a-row threats, including vertical, horizontal, and diagonal. - Notified Frank, Grace, and Bob of the update and requested re-test.
+- Reviewed test_report.txt and ai.py.
+- Requested a concrete board scenario or move sequence from Frank/Grace.
+- Improved ai.py to explicitly block all four-in-a-row threats, including vertical, horizontal, and diagonal.
+- Notified Frank, Grace, and Bob of the update and requested re-test.
+- Received confirmation from Grace and Frank that the AI now blocks all four-in-a-row threats in all tested scenarios, including vertical, horizontal, and diagonal cases. No further issues reported. All tasks complete.
