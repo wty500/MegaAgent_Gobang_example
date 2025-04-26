@@ -1,0 +1,2 @@
+- Design and suggest a targeted draw scenario test for Grace to ensure draw logic is fully validated in integration (e.g., a move sequence that fills the board without any player winning).
+- Communicate the suggestion to Frank and Grace, and offer to assist with further improvements if needed.
